@@ -1,0 +1,6 @@
+framework module Pods_PersonEconomy_PersonEconomyUITests {
+  umbrella header "Pods-PersonEconomy-PersonEconomyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

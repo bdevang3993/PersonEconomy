@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20B50" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="LICEntryPerMonth" representedClassName="LICEntryPerMonth" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="billNumber" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="payedDate" optional="YES" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LoanEntry_PerMonth" representedClassName="LoanEntry_PerMonth" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="loanId" optional="YES" attributeType="String"/>
+        <attribute name="payedDate" optional="YES" attributeType="String"/>
+        <attribute name="transactionId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MemberMdeiclamData" representedClassName="MemberMdeiclamData" syncable="YES">
+        <attribute name="agentName" optional="YES" attributeType="String"/>
+        <attribute name="agentNumber" optional="YES" attributeType="String"/>
+        <attribute name="endDate" optional="YES" attributeType="String"/>
+        <attribute name="memberId" optional="YES" attributeType="String"/>
+        <attribute name="memberName" optional="YES" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PayerDetails" representedClassName="PayerDetails" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="strUrl" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserAdvanceDetail" representedClassName="UserAdvanceDetail" syncable="YES">
+        <attribute name="advanceId" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="item" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="paidDate" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="transactionId" optional="YES" attributeType="String"/>
+        <attribute name="userExpenseId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="userDataId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userMedicalId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserExpense" representedClassName="UserExpense" syncable="YES">
+        <attribute name="billRecips" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="chequeNumber" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="shareMemberName" optional="YES" attributeType="String"/>
+        <attribute name="sponserName" optional="YES" attributeType="String"/>
+        <attribute name="userExpenseId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserFamilyMember" representedClassName="UserFamilyMember" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="occupation" optional="YES" attributeType="String"/>
+        <attribute name="relationShip" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserLICDetail" representedClassName="UserLICDetail" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="months" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="personName" optional="YES" attributeType="String"/>
+        <attribute name="personNumber" optional="YES" attributeType="String"/>
+        <attribute name="policyName" optional="YES" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserLoanDetails" representedClassName="UserLoanDetails" syncable="YES">
+        <attribute name="bankName" optional="YES" attributeType="String"/>
+        <attribute name="contactPerson" optional="YES" attributeType="String"/>
+        <attribute name="deductionAmount" optional="YES" attributeType="String"/>
+        <attribute name="endDate" optional="YES" attributeType="String"/>
+        <attribute name="loanId" optional="YES" attributeType="String"/>
+        <attribute name="loanTYpe" optional="YES" attributeType="String"/>
+        <attribute name="memberName" optional="YES" attributeType="String"/>
+        <attribute name="referenceNumber" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="totalAmount" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserMedicalData" representedClassName="UserMedicalData" syncable="YES">
+        <attribute name="admittedDate" optional="YES" attributeType="String"/>
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="contactNumber" optional="YES" attributeType="String"/>
+        <attribute name="contactPerson" optional="YES" attributeType="String"/>
+        <attribute name="dischargeDate" optional="YES" attributeType="String"/>
+        <attribute name="hospitalName" optional="YES" attributeType="String"/>
+        <attribute name="mediclamGet" optional="YES" attributeType="String"/>
+        <attribute name="mediclamType" optional="YES" attributeType="String"/>
+        <attribute name="memberName" optional="YES" attributeType="String"/>
+        <attribute name="userMedicalId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES">
+        <attribute name="birthDay" optional="YES" attributeType="String"/>
+        <attribute name="contactNumber" optional="YES" attributeType="String"/>
+        <attribute name="emailId" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserReminder" representedClassName="UserReminder" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="eventType" optional="YES" attributeType="String"/>
+        <attribute name="reminderName" optional="YES" attributeType="String"/>
+        <attribute name="setType" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="userReminderId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="LICEntryPerMonth" positionX="-45" positionY="117" width="128" height="104"/>
+        <element name="LoanEntry_PerMonth" positionX="-54" positionY="90" width="128" height="104"/>
+        <element name="MemberMdeiclamData" positionX="-54" positionY="108" width="128" height="164"/>
+        <element name="PayerDetails" positionX="-54" positionY="117" width="128" height="74"/>
+        <element name="UserAdvanceDetail" positionX="-54" positionY="108" width="128" height="164"/>
+        <element name="UserData" positionX="-54" positionY="117" width="128" height="134"/>
+        <element name="UserExpense" positionX="-63" positionY="27" width="128" height="149"/>
+        <element name="UserFamilyMember" positionX="-63" positionY="27" width="128" height="104"/>
+        <element name="UserLICDetail" positionX="-54" positionY="108" width="128" height="164"/>
+        <element name="UserLoanDetails" positionX="-63" positionY="45" width="128" height="179"/>
+        <element name="UserMedicalData" positionX="-54" positionY="90" width="128" height="179"/>
+        <element name="UserProfile" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="UserReminder" positionX="-45" positionY="126" width="128" height="134"/>
+    </elements>
+</model>
